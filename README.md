@@ -1,0 +1,2 @@
+# antigravity
+Antigravity editor settings
