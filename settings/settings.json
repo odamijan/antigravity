@@ -1,52 +1,66 @@
 {
-	"diffEditor.hideUnchangedRegions.enabled": true,
-	"editor.accessibilitySupport": "off",
-	"editor.fontSize": 17,
-	"editor.formatOnSave": false,
-	"editor.lineHeight": 28,
+  "editor.accessibilitySupport": "off",
+  "editor.fontSize": 15,
+  "editor.formatOnSave": false,
+  "editor.lineHeight": 28,
   "editor.linkedEditing": true,
-	"editor.minimap.enabled": false,
-	"editor.quickSuggestions": {
-		"strings": "on",
-		"comments": "on"
-	},
-	// "editor.stickyScroll.enabled": false,
-  // "editor.stickyScroll.scrollWithEditor": false,
-	"editor.tabSize": 2,
-	"explorer.fileNesting.patterns": {
-		"*.ts": "${capture}.js",
-		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-		"*.jsx": "${capture}.js",
-		"*.tsx": "${capture}.ts",
-		"tsconfig.json": "tsconfig.*.json",
-		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
-		"*.sqlite": "${capture}.${extname}-*",
-		"*.db": "${capture}.${extname}-*",
-		"*.sqlite3": "${capture}.${extname}-*",
-		"*.db3": "${capture}.${extname}-*",
-		"*.sdb": "${capture}.${extname}-*",
-		"*.s3db": "${capture}.${extname}-*"
-	},
-	"git.autofetch": true,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"terminal.integrated.fontSize": 16,
-	"workbench.colorTheme": "Catppuccin Latte",
-	// "workbench.colorTheme": "Catppuccin Macchiato",
-	"workbench.colorCustomizations": {
-		"[Catppuccin Macchiato]": {
-			"editorGroup.border": "#3b4048",
-			"editorIndentGuide.background1": "#ABB2BF26",
-			"editor.foldBackground": "#91d7e31c"
-		}
-	},
-	// "workbench.iconTheme": "vscode-icons",
-	"workbench.iconTheme": "catppuccin-latte",
-	// "workbench.iconTheme": "catppuccin-macchiato",
-	"workbench.tree.indent":20,
-	"workbench.tree.renderIndentGuides": "always"
-	
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "strings": "on",
+    "comments": "on"
+  },
+  "editor.stickyScroll.enabled": false,
+  // // "editor.stickyScroll.scrollWithEditor": false,
+  "editor.tabSize": 2,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fontSize": 16,
+  "workbench.colorTheme": "Catppuccin Latte",
+  "workbench.colorCustomizations": {
+    "[Atom One Dark]": {
+      "editor.background": "#16191d",
+      // "statusBar.border": "#5d5f64",
+      "tree.indentGuidesStroke": "#5d5f64",
+      "tab.activeBackground": "#1f1f1f",
+      "tab.activeBorder": "#fff",
+      // "sideBarSectionHeader.background": "#21252b",
+      "editorGroup.border": "#21252b",
+      "editor.selectionBackground": "#2f333b"
+    },
+    "[Catppuccin Macchiato]": {
+      "editorGroup.border": "#3b4048",
+      "editorIndentGuide.background1": "#ABB2BF26",
+      "editor.foldBackground": "#91d7e31c",
+    },
+    "[Catppuccin Latte]": {
+      "menu.border": "#bcc0cc",
+      "editorIndentGuide.background1": "#abb2bf39",
+      "inlineEdit.modifiedBorder": "#bcc0cc",
+      "tree.indentGuidesStroke": "#5d5f64",
+    }
+  },
+  "workbench.iconTheme": "catppuccin-latte",
+  "workbench.tree.indent":20,
+  "workbench.tree.renderIndentGuides": "always",
 
-	// "redhat.telemetry.enabled": false,
-  // "xml.server.vmargs": "-Xmx256M",
-	
+
+  "redhat.telemetry.enabled": false,
+  "xml.server.vmargs": "-Xmx256M",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "update.mode": "manual"
 }
